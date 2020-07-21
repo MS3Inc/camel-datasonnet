@@ -1,6 +1,5 @@
 package com.modus.camel.model.language.datasonnet;
 
-import org.apache.camel.CamelContext;
 import org.apache.camel.Expression;
 import org.apache.camel.model.language.ExpressionDefinition;
 import org.apache.camel.spi.Metadata;
@@ -13,7 +12,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * To use Datasonnet scripts in Camel expressions or predicates.
  */
-@Metadata(firstVersion = "3.3.0", label = "language,datasonnet", title = "Datasonnet")
+@Metadata(firstVersion = "3.4.1", label = "language,script", title = "Datasonnet")
 @XmlRootElement(name = "datasonnet")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class DatasonnetExpression extends ExpressionDefinition {
@@ -39,7 +38,6 @@ public class DatasonnetExpression extends ExpressionDefinition {
     public String getLanguage() {
         return "datasonnet";
     }
-
 
     public String getInputMimeType() {
         return inputMimeType;
