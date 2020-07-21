@@ -1,4 +1,4 @@
-package com.modus.camel.datasonnet.language;
+package com.modus.camel.language.datasonnet;
 
 import com.modus.camel.datasonnet.DatasonnetProcessor;
 import org.apache.camel.CamelContext;

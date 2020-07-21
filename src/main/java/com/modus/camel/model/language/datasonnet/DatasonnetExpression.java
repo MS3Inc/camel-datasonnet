@@ -1,4 +1,4 @@
-package com.modus.camel.datasonnet.language.model;
+package com.modus.camel.model.language.datasonnet;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.Expression;

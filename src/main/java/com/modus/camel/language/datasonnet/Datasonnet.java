@@ -1,4 +1,4 @@
-package com.modus.camel.datasonnet.language;
+package com.modus.camel.language.datasonnet;
 
 import org.apache.camel.support.language.LanguageAnnotation;
 
